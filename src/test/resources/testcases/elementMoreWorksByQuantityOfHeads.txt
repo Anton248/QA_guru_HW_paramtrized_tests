@@ -1,0 +1,23 @@
+0) ТЕСТОВЫЕ ДАННЫЕ: [
+            [https://www.foxnews.com/us],
+            [https://www.foxnews.com/world],
+            [https://www.foxnews.com/politics],
+            [https://www.foxnews.com/health],
+            [https://www.foxnews.com/tech],
+            [https://www.foxnews.com/shows],
+            [https://www.foxnews.com/entertainment]
+]
+
+1) ЗАГОЛОВОК: Если кликнуть позицию главного меню More на странице второго уровня 'TEST_DATA[0]', то раскроется элемент, содержащий 12 видимых заголовков уровня h6
+
+2) ПРИОРИТЕТ/КРИТИЧНОСТЬ - CRITICAL
+
+3)* ПРЕДУСЛОВИЯ:
+- Открыть браузер
+
+4) ШАГИ:
+- Открыть страницу 'TEST_DATA[0]'
+- Кликнуть элемент главного меню More
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- В открывшемся элементе имеется 12 заголовков уровня h6

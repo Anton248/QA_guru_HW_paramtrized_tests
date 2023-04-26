@@ -1,0 +1,40 @@
+0) ТЕСТОВЫЕ ДАННЫЕ:
+TEST_DATA1[
+     [https://www.foxnews.com/us],
+     [https://www.foxnews.com/world],
+     [https://www.foxnews.com/politics],
+     [https://www.foxnews.com/health],
+     [https://www.foxnews.com/tech],
+     [https://www.foxnews.com/shows],
+     [https://www.foxnews.com/entertainment]
+]
+
+TEST_DATA2[
+     [U.S.],
+     [World],
+     [Politics],
+     [Entertainment],
+     [Business],
+     [Lifestyle],
+     [Science],
+     [Tech],
+     [Health],
+     [TV],
+     [About],
+     [Other]
+]
+
+1) ЗАГОЛОВОК: Если кликнуть позицию главного меню More на странице второго уровня 'TEST_DATA1[0]', то раскроется элемент,
+содержащий набор заголовков TEST_DATA2
+
+2) ПРИОРИТЕТ/КРИТИЧНОСТЬ - CRITICAL
+
+3)* ПРЕДУСЛОВИЯ:
+- Открыть браузер
+
+4) ШАГИ:
+- Открыть страницу 'TEST_DATA1[0]'
+- Кликнуть элемент главного меню More
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- В открывшемся элементе имеется набор заголовков заголовков TEST_DATA2

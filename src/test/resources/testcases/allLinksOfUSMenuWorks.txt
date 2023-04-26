@@ -1,0 +1,26 @@
+0) ТЕСТОВЫЕ ДАННЫЕ: [
+    [Crime, CRIME]
+    [Military, MILITARY]
+    [Education, EDUCATION]
+    [Terror, TERROR]
+    [Immigration, IMMIGRATION]
+    [Economy, ECONOMY]
+    [Personal Freedoms, PERSONAL FREEDOMS]
+    [Fox News Investigates, Fox News Investigates]
+    [Digital Originals, Digital Originals]
+]
+
+1) ЗАГОЛОВОК: Если кликнуть позицию 'TEST_DATA[0]' в секции меню More/U.S, то откроется страница, содержащая заголовок 'TEST_DATA[1]'
+
+2) ПРИОРИТЕТ/КРИТИЧНОСТЬ - CRITICAL
+
+3)* ПРЕДУСЛОВИЯ:
+- Открыть браузер
+- Перейти по адресу https://www.foxnews.com
+
+4) ШАГИ:
+- Кликнуть элемент главного меню More
+- В открывшемся элементе в секции U.S. кликнуть 'TEST_DATA[0]'
+
+5) ОЖИДАЕМЫЙ РЕЗУЛЬТАТ:
+- В открывшейся странице имеется заголовок 'TEST_DATA[1]'
