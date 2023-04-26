@@ -20,8 +20,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FoxNewsMenuMoreTests extends TestBase{
 
-    //Проверка того, что элемент главного меню 'More' работает верно на подстраницах второго уровня: если кликнуть
-    //на 'More', то раскрывшийся элемент должен содержать 12 видимых заголовков. Url страницы является параметром
+    //Проверка того, что элемент главного меню 'More' сайта Foxnews.com работает верно на подстраницах второго уровня:
+    //если кликнуть на 'More', то раскрывшийся элемент должен содержать 12 видимых заголовков.
+    //Url страницы является параметром
     //Тест кейс описан в файле resources/testcases/elementMoreWorksByQuantityOfHeads.txt
     @ValueSource(strings = {
             "/us",
